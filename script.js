@@ -57,3 +57,13 @@ function testReturn() {
 
 let result = testReturn();
 console.log(result);
+
+let globalMessage = "Hello, I am a global variable!";
+
+function displayMessege() {
+    let localMessage = "Hello, I am a local variable!";
+    console.log(globalMessage);
+    console.log(localMessage);
+}
+// console.log(localMessage); // This will throw an error because localMessage is not defined in this scope
+displayMessege();
