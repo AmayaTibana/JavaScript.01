@@ -44,7 +44,7 @@ function calculateRectangleArea(length, width) {
 let area1 = calculateRectangleArea(5, 10);
 console.log("Area of rectangle 1: " + area1);
 
-console.log()
+console.log();
 
 let area2 = calculateRectangleArea(7, 3);
 console.log("Area of rectangle 2: " + area2);
@@ -67,3 +67,70 @@ function displayMessege() {
 }
 // console.log(localMessage); // This will throw an error because localMessage is not defined in this scope
 displayMessege();
+
+let temperature = 95;
+
+if (temperature > 90) {
+    console.log("It's really hot outside!");
+} else if (temperature > 70) {
+    console.log("The weather is nice.");
+} else {
+    console.log("It's a bit chilly.");
+}
+
+let username = "";
+
+if (username) {
+console.log("Welcome, " + username);
+}
+
+username = "Alex";
+
+if (username) {
+console.log("Welcome, " + username);
+}
+
+
+let day = "Tuesday"
+
+switch (day) {
+    case "Monday":
+        console.log("Today is Monday.");
+        break;
+    case "Tuesday":
+        console.log("Today is Tuesday.");
+        break;
+    case "Wednesday":
+        console.log("Today is Wednesday.");
+        break;
+    case "Thursday":
+        console.log("Today is Thursday.");
+        break;
+    case "Friday":
+        console.log("Today is Friday.");
+        break;
+    default:
+        console.log("It's the weekend!");
+}
+
+let yesterday = "Monday"
+
+switch(day) {
+    case "Monday":
+        console.log(Output: "Yesterday was Monday.");
+        break;
+    cawse "Tuesday":
+        console.log("Yesterday was Tuesday.");
+        break;
+    case "Wednesday":
+        console.log("Yesterday was Wednesday.");
+        break;
+    case "Thursday":
+        console.log("Yesterday was Thursday.");
+        break;
+    case "Friday":
+        console.log("Yesterday was Friday.");
+        break;
+    default:
+        console.log("It's the weekend!");       
+}
