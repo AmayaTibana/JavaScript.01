@@ -117,7 +117,7 @@ let yesterday = "Monday"
 
 switch(day) {
     case "Monday":
-        console.log(Output: "Yesterday was Monday.");
+        console.log( "Yesterday was Monday.");
         break;
     cawse "Tuesday":
         console.log("Yesterday was Tuesday.");
